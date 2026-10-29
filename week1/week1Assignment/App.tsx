@@ -14,17 +14,13 @@ export default function App() {
       <Text style={styles.basic}>Enter your age:</Text>
       <TextInput
         style={styles.input}
-        placeholder='age'
+        placeholder='0'
         keyboardType='number-pad'
         value={age}
         onChangeText={setage}
       />
-      {age.trim() !== '' && (
-        <>
           <Text style={styles.basicText}>Lower limit: {lowerLimit.toFixed(2)} bpm</Text>
           <Text style={styles.basicText}>Upper limit: {upperLimit.toFixed(2)} bpm</Text>
-        </>
-      )}
       <StatusBar style="auto" />
     </View>
   );
