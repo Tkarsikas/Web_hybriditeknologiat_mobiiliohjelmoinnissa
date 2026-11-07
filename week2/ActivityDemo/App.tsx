@@ -1,7 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import TextActivityIndicator from './components/TextActivityIndicator';
+import TextActivityIndicator, {ActivityIndicatorSize} from './components/TextActivityIndicator';
+import React from 'react';
 
 export default function App() {
   const [loading, setLoading] = useState<boolean>(true)
@@ -22,6 +23,8 @@ export default function App() {
       {loading ? ( 
       <TextActivityIndicator 
       message="Loading..."
+      size={ActivityIndicatorSize.Small}
+      color='#0000ff'
       />
       ) : (
         <Text>Welcome to the page</Text>

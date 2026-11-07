@@ -1,14 +1,15 @@
+import React from 'react'
 import { View, Text, ActivityIndicator } from 'react-native'
 
 
-enum ActivityIndicatorSize {
+export enum ActivityIndicatorSize {
     Large = 'large',
     Small = 'small'
 }
 
 interface TextActivityIndicatorProps {
     message: string,
-    size?: ActivityIndicatorSize,
+    size?: 'large' | 'small',
     color?: string
 }
 
