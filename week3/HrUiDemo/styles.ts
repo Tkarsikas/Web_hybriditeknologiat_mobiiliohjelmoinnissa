@@ -4,7 +4,7 @@ import { theme } from "./theme";
 const baseText: TextStyle = { fontSize: theme.fontSizes.medium, fontWeight: '600'}
 
 const styles = StyleSheet.create({
-  container: {
+    container: {
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
@@ -14,7 +14,8 @@ const styles = StyleSheet.create({
       fontSize: theme.fontSizes.large,
       fontWeight: 'bold',
       color: theme.colors.primary,
-      marginBottom: theme.spacing.medium
+      marginBottom: theme.spacing.medium,
+      fontFamily: "LatoRegular"
     },
     input: {
       ...baseText
