@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2dfc8e2c-e423-41d9-94ac-3825d233632f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Row.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Row.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week4Assignment/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../week4Assignment/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week4Assignment/CSS/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../week4Assignment/CSS/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week4Assignment/components/Row.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../week4Assignment/components/Row.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week4Assignment/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../week4Assignment/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week4Assignment/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../week4Assignment/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
