@@ -23,6 +23,20 @@ const styles = StyleSheet.create({
     flex: 1,
     color: theme.colors.text,
   },
+  deleteButton: {
+    backgroundColor: "#FF3B30",
+    paddingHorizontal: 15,
+    paddingVertical: 8,
+    borderRadius: 6,
+  },
+  deleteButtonText: {
+    color: "white",
+    fontWeight: "600",
+  },
+  completedText: {
+    textDecorationLine: "line-through",
+    color: "#999",
+  },
 });
 
 export default styles;
