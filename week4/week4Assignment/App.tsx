@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import { Text, View, TextInput, FlatList, Button, Alert } from "react-native";
+import { Text, View, TextInput, FlatList, Button, Alert, Pressable } from "react-native";
 import styles from "./CSS/styles";
 import { useEffect, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -103,13 +103,18 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <View>
+      <Text style={styles.headerText}>Todo list</Text>
+      <View style={styles.textInput}>
         <TextInput
+          style={styles.textInputText}
           value={input}
           onChangeText={setInput}
           placeholder="Add new task..."
           onSubmitEditing={addTask}
         />
+        <Pressable onPress={addTask} style={styles.saveButton}>
+          <Text style={styles.saveText}>Save</Text>
+        </Pressable>
       </View>
       <FlatList<Task>
         data={tasks}
